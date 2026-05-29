@@ -1,6 +1,6 @@
-# myapp
+# Proyecto-Inicial-Boutique
 
-A new Flutter project.
+Aquí se guardan todos los trabajos que complementan el proyecto
 
 ## Getting Started
 
