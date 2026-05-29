@@ -14,6 +14,7 @@
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/371d9e70-2a14-4f06-9026-47c4c3f2b2d3" />
 
 ## Unidad 6
+
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/9bd64234-f0c8-4cf2-a26b-6d2e517d7345" />
 
 
