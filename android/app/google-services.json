@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "476796278010",
+    "project_id": "bdcrudboutique",
+    "storage_bucket": "bdcrudboutique.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476796278010:android:00bdb9d588fff1d6c7e543",
+        "android_client_info": {
+          "package_name": "com.example.boutique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476796278010-kqm5ej31u14qr3tlq4u33fng0b8k8ka4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boutique",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "476796278010-r61ug1imoa35a1jjca6jqg6365k0utbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsHiDv9Mbt8NrSHy7rBOHLSc2L-DE7IIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476796278010-r61ug1imoa35a1jjca6jqg6365k0utbt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "476796278010-3dsga51uo2vkkrtbihhqhvq7oikqt61t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.fluttterflowfirebaselogin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476796278010:android:bc4ba484e167e48fc7e543",
+        "android_client_info": {
+          "package_name": "com.mycompany.fluttterflowfirebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476796278010-ejmj5b1gdtj0e0apapid8obksdf2a8lc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.fluttterflowfirebaselogin",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "476796278010-r61ug1imoa35a1jjca6jqg6365k0utbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsHiDv9Mbt8NrSHy7rBOHLSc2L-DE7IIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476796278010-r61ug1imoa35a1jjca6jqg6365k0utbt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "476796278010-3dsga51uo2vkkrtbihhqhvq7oikqt61t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.fluttterflowfirebaselogin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

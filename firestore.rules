@@ -1,0 +1,41 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Permite la lectura pública de productos
+    match /products/{productId} {
+      allow read: if true;
+      // Solo los administradores (futuro) o la consola pueden escribir
+      allow write: if false; // Prohibir la escritura desde el cliente por ahora
+    }
+
+    // Los usuarios solo pueden leer y escribir su propio carrito
+    match /users/{userId}/cart/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Los usuarios solo pueden leer y escribir en su propia información
+    match /users/{userId} {
+        allow read, update: if request.auth != null && request.auth.uid == userId;
+        // La creación puede ser necesaria durante el registro, así que es más abierta
+        allow create: if request.auth != null;
+    }
+
+    // Los usuarios solo pueden leer sus propios pedidos
+    match /users/{userId}/orders/{orderId} {
+        allow read, write: if request.auth.uid == userId;
+    }
+
+    // COLECCIÓN DE ROLES: Reglas de seguridad clave
+    match /roles/{userId} {
+      // Un usuario solo puede leer su propio documento de rol.
+      allow read: if request.auth.uid == userId;
+
+      // NADIE puede escribir en los roles desde la aplicación. Esto previene
+      // que un usuario se autoasigne el rol de administrador.
+      // Los roles DEBEN ser asignados manualmente desde la Consola de Firebase.
+      allow create, update, delete: if false;
+    }
+  }
+}
